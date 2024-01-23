@@ -5,7 +5,6 @@ import Coffeeshop from "../components/Coffeeshop";
 import { baseURL } from "../utils/constatnts";
 
 const Mayak = ({ mayakData }) => {
-  console.log(mayakData);
 
   return (
     <>
