@@ -79,7 +79,7 @@ export const CarouselBox: React.FC<carouselBoxProps> = ({
             image={item.image}
             isCoffeeshop={isCoffeeshop}
           >
-            <Link href={"/shop"}>
+            <Link href={"https://shop.pitcherbar.ru"}>
               <button
                 aria-label="перейти в магазин"
                 className={`
