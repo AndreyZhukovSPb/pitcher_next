@@ -33,7 +33,7 @@ const Portfolio: React.FC<PortfolioProps> = ({instaPhoto}) => {
     <section className={styles.portfolio}>
       <h2 
         className={styles.portfolio__title}
-        onClick={()=>console.log(instaPhoto)}
+        // onClick={()=>console.log(instaPhoto)}
       >
           Последние новости из жизни Picther
       </h2>
