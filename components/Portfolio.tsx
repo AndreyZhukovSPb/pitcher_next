@@ -35,7 +35,7 @@ const Portfolio: React.FC<PortfolioProps> = ({instaPhoto}) => {
         className={styles.portfolio__title}
         // onClick={()=>console.log(instaPhoto)}
       >
-          Последние новости из жизни Picther
+          Последние новости из жизни Pitcher
       </h2>
       <div className={styles.portfolio__photoContainer}>
         {instaPhoto && instaPhoto.slice(0, itemsToShow).map((item) => (
