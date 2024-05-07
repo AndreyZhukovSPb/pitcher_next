@@ -33,9 +33,9 @@ const Portfolio: React.FC<PortfolioProps> = ({instaPhoto}) => {
     <section className={styles.portfolio}>
       <h2 
         className={styles.portfolio__title}
-        onClick={()=>console.log(instaPhoto)}
+        // onClick={()=>console.log(instaPhoto)}
       >
-          Последние новости из жизни Picther
+          Последние новости из жизни Pitcher
       </h2>
       <div className={styles.portfolio__photoContainer}>
         {instaPhoto && instaPhoto.slice(0, itemsToShow).map((item) => (

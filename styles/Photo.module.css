@@ -1,6 +1,8 @@
 .photo {
   width: 100%;
+  max-width: 350px;
   height: 24vw !important;
+  max-height: 350px;
   object-fit: cover;
   cursor: pointer;
   transition: opacity 0.7s ease, box-shadow linear 0.3s;

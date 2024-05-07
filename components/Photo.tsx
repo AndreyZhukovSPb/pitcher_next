@@ -22,7 +22,10 @@ const Photo: React.FC<photoProps> = ({
       src={`${item.storageLink}?random=${randomParam}`}
       alt='foto from insta'
       className={styles.photo}
-      fill
+      // fill
+      loading="eager"
+      width={350}
+      height={350}
       unoptimized={true}
       onClick={() => {
             onClick(item.permaLink);
