@@ -1,5 +1,4 @@
 import styles from "../styles/Coffeeshop.module.css";
-import menu from "../public/nemu_v_1.jpeg";
 import Image from "next/image";
 
 import {
@@ -281,14 +280,3 @@ const Coffeeshop: React.FC<coffeeshopProps> = ({
 
 export default Coffeeshop;
 
-/*
-
-
-                  {isCarouselOpen && 
-          <CoffeeCarousel
-            coffeeshopPictures={currentPictures}      
-            isCoffeeshop={isCarouselOpen}
-            onClose={closeCarousel}
-            item={currentCatouselItem}
-          />} 
-*/
