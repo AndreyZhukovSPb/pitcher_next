@@ -4,6 +4,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import "../styles/fonts.css";
 import '../styles/global.css'
 import Layout from "../components/Layout";
+import YandexMetrika from '../utils/yandexMetrika'
 
 import React from "react";
 
@@ -14,6 +15,7 @@ export default function MyApp({ Component, pageProps }) {
       <Head>
         <title>Specialty coffee</title>
         <link rel="icon" href="/favicon.ico/" sizes="any" lang="RU"/>
+        <YandexMetrika />
       </Head>
       <ScrollToTop />
       <div className='page'>
